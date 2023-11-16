@@ -15,18 +15,18 @@ public class Main {
         productName = "smartphone";
         totalSales = 12153.41;
         dayCount = 5;
-        daySales = totalSales / dayCount ;
+        daySales = totalSales / dayCount;
 
-        System.out.printf( "%n%s: %s, %ntotal sales for 5 days is %s %.2f, %nsales by day is %s %.2f.",
+        System.out.printf("%n%s: %s, %ntotal sales for 5 days is %s %.2f, %nsales by day is %s %.2f.",
                 productNumber, productName, CURRENCY, totalSales, CURRENCY, daySales);
 
         productNumber = "Product No 2";
         productName = "laptop";
         totalSales = 10486.85;
         dayCount = 7;
-        daySales = totalSales / dayCount ;
+        daySales = totalSales / dayCount;
 
-        System.out.printf( "%n%s: %s, %ntotal sales for 7 days is %s %.2f, %nsales by day is %s %.2f.",
+        System.out.printf("%n%s: %s, %ntotal sales for 7 days is %s %.2f, %nsales by day is %s %.2f.",
                 productNumber, productName, CURRENCY, totalSales, CURRENCY, daySales);
 
     }
